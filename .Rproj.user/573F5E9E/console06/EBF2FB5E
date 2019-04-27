@@ -15,3 +15,83 @@ Untracked files:
 
 nothing added to commit but untracked files present
 ]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git add -A
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git add -Acommit -m 'initial commit'
+[master (root-commit) d1dcd25] initial commit
+ 11 files changed, 224 insertions(+)
+ create mode 100644 .Rproj.user/573F5E9E/console06/EBF2FB5E
+ create mode 100644 .Rproj.user/573F5E9E/console06/EBF2FB5E.env
+ create mode 100644 .Rproj.user/573F5E9E/console06/INDEX001
+ create mode 100644 .Rproj.user/573F5E9E/sources/prop/2DC7035B
+ create mode 100644 .Rproj.user/573F5E9E/sources/prop/INDEX
+ create mode 100644 .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E
+ create mode 100644 .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents
+ create mode 100644 .Rproj.user/573F5E9E/sources/s-8B65F010/lock_file
+ create mode 100644 .Rproj.user/shared/notebooks/patch-chunk-names
+ create mode 100644 9.4.Rproj
+ create mode 100644 app.R
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git push origin
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git push origin master
+Counting objects: 19, done.
+Delta compression using up to 4 threads.
+Compressing objects:   6% (1/15)   Compressing objects:  13% (2/15)   Compressing objects:  20% (3/15)   Compressing objects:  26% (4/15)   Compressing objects:  33% (5/15)   Compressing objects:  40% (6/15)   Compressing objects:  46% (7/15)   Compressing objects:  53% (8/15)   Compressing objects:  60% (9/15)   Compressing objects:  66% (10/15)   Compressing objects:  73% (11/15)   Compressing objects:  80% (12/15)   Compressing objects:  86% (13/15)   Compressing objects:  93% (14/15)   Compressing objects: 100% (15/15)   Compressing objects: 100% (15/15), done.
+Writing objects:   5% (1/19)   Writing objects:  10% (2/19)   Writing objects:  15% (3/19)   Writing objects:  21% (4/19)   Writing objects:  26% (5/19)   Writing objects:  31% (6/19)   Writing objects:  36% (7/19)   Writing objects:  42% (8/19)   Writing objects:  47% (9/19)   Writing objects:  52% (10/19)   Writing objects:  57% (11/19)   Writing objects:  63% (12/19)   Writing objects:  68% (13/19)   Writing objects:  73% (14/19)   Writing objects:  78% (15/19)   Writing objects:  84% (16/19)   Writing objects:  89% (17/19)   Writing objects:  94% (18/19)   Writing objects: 100% (19/19)   Writing objects: 100% (19/19), 3.91 KiB | 81.00 KiB/s, done.
+Total 19 (delta 0), reused 0 (delta 0)
+To https://github.com/tylerjeldred/Palette-From-Picture.git
+ * [new branch]      master -> master
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ [KTylers-MacBook-Air:9.4 tylereldred$ git stats[Kus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/2DC7035B[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents[m
+	[31mmodified:   app.R[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.Rproj.user/573F5E9E/sources/prop/5E1BC04E[m
+	[31m.Rproj.user/573F5E9E/sources/prop/F22FC218[m
+	[31m.Rproj.user/573F5E9E/sources/s-8B65F010/7F45645D[m
+	[31m.Rproj.user/573F5E9E/sources/s-8B65F010/7F45645D-contents[m
+	[31m.Rproj.user/573F5E9E/sources/s-8B65F010/9BE64677[m
+	[31m.Rproj.user/573F5E9E/sources/s-8B65F010/9BE64677-contents[m
+	[31m.Rproj.user/shared/notebooks/paths[m
+	[31mserver.R[m
+	[31mui.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ touch .gitignore
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/2DC7035B[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/INDEX[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents[m
+	[31mmodified:   app.R[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.gitignore[m
+	[31mserver.R[m
+	[31mui.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git ad [Kd -A
