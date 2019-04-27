@@ -1,0 +1,17 @@
+git init]0;~/Desktop/Rworkspace/9.4[?1034hTylers-MacBook-Air:9.4 tylereldred$ git init[K[K[K[K[K[K[K[Kgit init
+Initialized empty Git repository in /Users/tylereldred/Desktop/Rworkspace/9.4/.git/
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git remotr [K[Ke add rigin [K[K[K[K[K[Korigin https://github.com/t ylerjeldred/Palette-From-Picture.git
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git coom[K[Kmmit ''i'n'i't'i'a'l' '[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'i'n'i't'i'a'l' 'c'o'm'm'i't't'[1P'[C
+error: pathspec 'initial commit' did not match any file(s) known to git.
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git commit 'initial commit'[C[1@-[1@,[1@,[1@ [1P[1P[1P[1@m[1@ 
+On branch master
+
+Initial commit
+
+Untracked files:
+	[31m.Rproj.user/[m
+	[31m9.4.Rproj[m
+	[31mapp.R[m
+
+nothing added to commit but untracked files present
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git add -A
