@@ -241,3 +241,81 @@ Changes not staged for commit:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git stat[K[K[K[Kadd -A
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git commit -m ''c'o'l'o'r' 'p'a'l'l'e't'e' 'f'u'n'c't'i'o'n'a'r'[1P'l'i't'y'
+[master 865dfa2] color pallete functionality
+ 10 files changed, 220 insertions(+), 69 deletions(-)
+ rewrite .Rproj.user/573F5E9E/console06/INDEX001 (100%)
+ delete mode 100644 .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E
+ delete mode 100644 .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents
+ delete mode 100644 .Rproj.user/573F5E9E/sources/s-8B65F010/lock_file
+ rewrite server.R (76%)
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   server.R[m
+	[31mmodified:   ui.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git reset -- hard
+Unstaged changes after reset:
+M	.Rproj.user/573F5E9E/console06/EBF2FB5E
+M	server.R
+M	ui.R
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git reset -- hard[7Pstatus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   server.R[m
+	[31mmodified:   ui.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git reset -- hard
+Unstaged changes after reset:
+M	.Rproj.user/573F5E9E/console06/EBF2FB5E
+M	server.R
+M	ui.R
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git reset -- hard[7Pstatus
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   server.R[m
+	[31mmodified:   ui.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ T[Ktouch README.md
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git statis
+git: 'statis' is not a git command. See 'git --help'.
+
+The most similar command is
+	status
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/2DC7035B[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/INDEX[m
+	[31mmodified:   app.R[m
+	[31mmodified:   server.R[m
+	[31mmodified:   ui.R[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mREADME.html[m
+	[31mREADME.md[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git add -A

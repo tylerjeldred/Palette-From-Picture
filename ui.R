@@ -1,28 +1,38 @@
+# To run this app in RStudio, 
+# copy the contents of app.R 
+# into the console window 
+# or click the "Run App" button
+
 require(shiny)
 
-# Define UI for application that draws a histogram
+# define UI for the application
 ui <- fluidPage(
+  # style tag to hide error text for when a photo hasn't been uploaded yet
   tags$style(
     type = "text/css",
     ".shiny-output-error { visibility: hidden; }",
     ".shiny-output-error:before { visibility: hidden; }"
   ),
-  # Application title
+  
+  # application title
   titlePanel("Color Palette From Photo"),
-  # Sidebar with a slider input for number of bins 
+  
+  # sidebar with inputs
   sidebarLayout(
     sidebarPanel(
-      # Input: Select a file ----
+      # input: select a file
       fileInput(
         "photo", 
         "Upload a Photo (must be JPG)",
         multiple = FALSE,
         accept = c(".jpg")
       ),
-      numericInput("color.number", "Number of Colors", 5, max = 20)
+      
+      # input: number of colors
+      numericInput("color.number", "Number of Colors", 5, min = 1, max = 20)
     ),
     
-    # Show a plot of the generated distribution
+    # show colors and RBG values for calculated colors
     mainPanel(
       uiOutput("color.panel"),
       lapply(1:20, function(index){
