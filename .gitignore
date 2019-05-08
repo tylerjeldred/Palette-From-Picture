@@ -1,1 +1,5 @@
 .Rproj.*
+.Rproj.user*
+.RData
+.Rhistory
+.nosync

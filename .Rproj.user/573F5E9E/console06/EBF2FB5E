@@ -95,3 +95,149 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git ad [Kd -A
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git commit -m ''b'a's'i'c' 'u'p'l'o'a'd' 'a'n'd' 'r'e'n'd'e'r' 't'e's't'[1P[1P[1P[1P[1@,[C[1@ [1@c[1@a[1@l[1@c[1@u[1@l[1@a[1@t[1@e[C[1@ [1P[1@,[C[1@ [1@a[1@n[1@d[C[1@ 
+[master 542c977] basic upload, calculate, and  render test
+ 10 files changed, 162 insertions(+), 105 deletions(-)
+ rewrite .Rproj.user/573F5E9E/console06/INDEX001 (69%)
+ rewrite .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents (95%)
+ create mode 100644 .gitignore
+ rewrite app.R (95%)
+ create mode 100644 server.R
+ create mode 100644 ui.R
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ ?uiOutput
+bash: ?uiOutput: command not found
+touch ]0;~/Desktop/Rworkspace/9.4[?1034hTylers-MacBook-Air:9.4 tylereldred$ touch .nosync
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E.env[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/2DC7035B[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/lock_file[m
+	[31mmodified:   .gitignore[m
+	[31mmodified:   server.R[m
+	[31mmodified:   ui.R[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.RData[m
+	[31m.Rhistory[m
+	[31m.nosync[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E.env[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/2DC7035B[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/lock_file[m
+	[31mmodified:   .gitignore[m
+	[31mmodified:   server.R[m
+	[31mmodified:   ui.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E.env[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/2DC7035B[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/lock_file[m
+	[31mmodified:   .gitignore[m
+	[31mmodified:   server.R[m
+	[31mmodified:   ui.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E.env[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/2DC7035B[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/lock_file[m
+	[31mmodified:   .gitignore[m
+	[31mmodified:   server.R[m
+	[31mmodified:   ui.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E.env[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/2DC7035B[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/lock_file[m
+	[31mmodified:   .gitignore[m
+	[31mmodified:   server.R[m
+	[31mmodified:   ui.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E.env[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/2DC7035B[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/lock_file[m
+	[31mmodified:   .gitignore[m
+	[31mmodified:   server.R[m
+	[31mmodified:   ui.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E.env[m
+	[31mmodified:   .Rproj.user/573F5E9E/console06/INDEX001[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/2DC7035B[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/ACFD3A1E-contents[m
+	[31mdeleted:    .Rproj.user/573F5E9E/sources/s-8B65F010/lock_file[m
+	[31mmodified:   .gitignore[m
+	[31mmodified:   server.R[m
+	[31mmodified:   ui.R[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git stat[K[K[K[Kadd -A
