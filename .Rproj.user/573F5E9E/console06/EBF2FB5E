@@ -319,3 +319,36 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git add -A
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git commit -m ''a'd'd' 'o'r'e'[1P'[1P'[1P'm'o'r'e' 'd'o'c'[1P'[1P'[1P'[1P'[1P'[1P'[1P'[1P'c'o'm'm'e'n't's' 'a'n'd' 'd'o'c'u'm'e'n't'a't'i'o'n'
+[master 7b474fb] add comments and documentation
+ 8 files changed, 327 insertions(+), 10 deletions(-)
+ create mode 100644 README.html
+ create mode 100644 README.md
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git push origin maser[K[Kter
+Counting objects: 46, done.
+Delta compression using up to 4 threads.
+Compressing objects:   2% (1/42)   Compressing objects:   4% (2/42)   Compressing objects:   7% (3/42)   Compressing objects:   9% (4/42)   Compressing objects:  11% (5/42)   Compressing objects:  14% (6/42)   Compressing objects:  16% (7/42)   Compressing objects:  19% (8/42)   Compressing objects:  21% (9/42)   Compressing objects:  23% (10/42)   Compressing objects:  26% (11/42)   Compressing objects:  28% (12/42)   Compressing objects:  30% (13/42)   Compressing objects:  33% (14/42)   Compressing objects:  35% (15/42)   Compressing objects:  38% (16/42)   Compressing objects:  40% (17/42)   Compressing objects:  42% (18/42)   Compressing objects:  45% (19/42)   Compressing objects:  47% (20/42)   Compressing objects:  50% (21/42)   Compressing objects:  52% (22/42)   Compressing objects:  54% (23/42)   Compressing objects:  57% (24/42)   Compressing objects:  59% (25/42)   Compressing objects:  61% (26/42)   Compressing objects:  64% (27/42)   Compressing objects:  66% (28/42)   Compressing objects:  69% (29/42)   Compressing objects:  71% (30/42)   Compressing objects:  73% (31/42)   Compressing objects:  76% (32/42)   Compressing objects:  78% (33/42)   Compressing objects:  80% (34/42)   Compressing objects:  83% (35/42)   Compressing objects:  85% (36/42)   Compressing objects:  88% (37/42)   Compressing objects:  90% (38/42)   Compressing objects:  92% (39/42)   Compressing objects:  95% (40/42)   Compressing objects:  97% (41/42)   Compressing objects: 100% (42/42)   Compressing objects: 100% (42/42), done.
+Writing objects:   2% (1/46)   Writing objects:   4% (2/46)   Writing objects:   6% (3/46)   Writing objects:   8% (4/46)   Writing objects:  10% (5/46)   Writing objects:  13% (6/46)   Writing objects:  15% (7/46)   Writing objects:  17% (8/46)   Writing objects:  19% (9/46)   Writing objects:  21% (10/46)   Writing objects:  23% (11/46)   Writing objects:  26% (12/46)   Writing objects:  28% (13/46)   Writing objects:  30% (14/46)   Writing objects:  32% (15/46)   Writing objects:  34% (16/46)   Writing objects:  36% (17/46)   Writing objects:  39% (18/46)   Writing objects:  41% (19/46)   Writing objects:  43% (20/46)   Writing objects:  45% (21/46)   Writing objects:  47% (22/46)   Writing objects:  50% (23/46)   Writing objects:  52% (24/46)   Writing objects:  54% (25/46)   Writing objects:  56% (26/46)   Writing objects:  58% (27/46)   Writing objects:  60% (28/46)   Writing objects:  63% (29/46)   Writing objects:  65% (30/46)   Writing objects:  67% (31/46)   Writing objects:  69% (32/46)   Writing objects:  71% (33/46)   Writing objects:  73% (34/46)   Writing objects:  76% (35/46)   Writing objects:  78% (36/46)   Writing objects:  80% (37/46)   Writing objects:  82% (38/46)   Writing objects:  84% (39/46)   Writing objects:  86% (40/46)   Writing objects:  89% (41/46)   Writing objects:  91% (42/46)   Writing objects:  93% (43/46)   Writing objects:  95% (44/46)   Writing objects:  97% (45/46)   Writing objects: 100% (46/46)   Writing objects: 100% (46/46), 242.65 KiB | 4.41 MiB/s, done.
+Total 46 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/10)   [Kremote: Resolving deltas:  20% (2/10)   [Kremote: Resolving deltas:  30% (3/10)   [Kremote: Resolving deltas:  40% (4/10)   [Kremote: Resolving deltas:  60% (6/10)   [Kremote: Resolving deltas:  70% (7/10)   [Kremote: Resolving deltas:  90% (9/10)   [Kremote: Resolving deltas: 100% (10/10)   [Kremote: Resolving deltas: 100% (10/10), completed with 3 local objects.[K
+To https://github.com/tylerjeldred/Palette-From-Picture.git
+   d1dcd25..7b474fb  master -> master
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   .Rproj.user/573F5E9E/console06/EBF2FB5E[m
+	[31mmodified:   .Rproj.user/573F5E9E/sources/prop/INDEX[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mpresentation.Rmd[m
+	[31mpresentation.html[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ add -A
+bash: add: command not found
+]0;~/Desktop/Rworkspace/9.4Tylers-MacBook-Air:9.4 tylereldred$ git add -A

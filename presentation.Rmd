@@ -1,0 +1,50 @@
+---
+title: "A Shiny Application for Creating Color Palettes From Photos"
+author: "Tyler Eldred"
+date: "5/7/2019"
+output: ioslides_presentation
+---
+
+## A Shiny Application for Creating Color Palettes From Photos
+
+A presentation by **Tyler Eldred**
+
+
+## Features
+
+* Open source Shiny web application
+* Given a number and a JPEG photo, calculate a color palette from that photo
+
+## Purpose
+
+* Demonstate the capabilities of R and Shiny
+* Provide a source of inspiration for creating color palettes for websites
+
+
+## How It Works
+
+* The binary from the photo is read into a data frame with a row per pixel, R, G, and B values in separate columns.
+* `kmeans` clustering is performed on the pixels, with a number of clusters equal to the number requested from the UI.
+* The centers of each cluster, being average RBG values for distinct groups of pixels with the application, are used for the palette colors and each one's color and RGB values are displayed.
+
+
+## How To Use The Application
+
+  * Choose how many colors you would like to calculate for your color palette by selected from the `Number of Colors` input. The minimum is 1 and the maximum is 20.
+  * Upload a photo from your file system by clicking the `Browse` button. The file must be a jpeg.
+  * After a file is uploaded the colors will start to be calculated. This may take a minute or so as this calculation takes place.
+  * When loaded, you will see a color panel and a set of RGB values for each color it calculated from your photo.
+  * If you are viewing the application from RStudio and you do not see the color panels with the RGB values, try viewing the application from a browser.
+
+
+## Future Work
+
+  * Due to difficulties with the shiny framework, there could not be a truly dynamic range of output values, so a hard limit of 20 had to be used.
+  * Other methods of generating a palette other than clustering could be explored.
+  * To make the application more accessible, it should be hosted publically
+  * The UI for the application could be better, including: more directions, a thumbnail for the uploaded image, more input validation, a loading indicator, and hexidecimal values in addition to RGB values.
+
+
+## Questions? Comments?
+
+  Email Tyler at TylerJEldred @ protonmail.com if you'd like.
